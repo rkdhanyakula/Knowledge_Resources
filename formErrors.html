@@ -1,0 +1,420 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+<!--External Links -->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style2.css"/>
+<link rel="stylesheet" href="css/error.css" />
+<link rel="stylesheet" href="css/modal-style.css" />
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/sizzle.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/modal-script.js"></script>
+<style>
+<style type= "text/css">
+.standard-button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+	background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+	background-color:#f9f9f9;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#1f181f;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:33px;
+	line-height:33px;
+	width:85px;
+	text-decoration:none;
+	text-align:center;
+}
+.standard-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+	background-color:#e9e9e9;
+}.standard-button:active {
+	position:relative;
+	top:1px;
+}
+</style>
+
+
+</style>
+
+<!--External Links -->
+<title>KRSTE - GUI Elements</title>
+<meta charset="utf-8">
+</head>
+<body id="public">
+<div id="toppanel">
+  <div id="panel" >
+    <div class="loginportlet" >
+      <div id="login-fields">
+        <div id="login-header">Sign In </div>
+        <form action=" " method=" " name="">
+          <div id="register_user_profile_userId" class="formItem">
+            <div class="fieldTitle">
+              <label class="fieldTitle">Screen Name</label>
+            </div>
+            <div class="inputField">
+              <input class="inputField" type="text" name="profile_userId" placeholder="e.g : John" size="30" maxlength="15">
+            </div>
+          </div>
+          <div id="register_user_profile_password" class="formItem">
+            <div class="fieldTitle">
+              <label class="fieldTitle">Password*</label>
+            </div>
+            <div class="inputField">
+              <input class="inputField" type="password" name="password" size="30" maxlength="15">
+            </div>
+          </div>
+          <div id="submit-button">
+            <button type="button" name="submit" value="submit">Sign In</button>
+          </div>
+        </form>
+        <div id="login-options">
+          <ul>
+            <li class="registerNow"><a href="#">Register Now</a> </li>
+            <li class="forgotPassword"><a href="#">Forgot Password</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Toggle panel starts here -->
+  <div class="tab">
+    <ul class="login">
+      <li id="toggle" > <a id="open" class="open" href="#"> Log In | Register</a> <a id="close"  style=" display:none;"class="close" href="#"> Close Panel</a> </li>
+    </ul>
+  </div>
+</div>
+<div id="wrapper">
+  <div id="container">
+    <!-- Header Code -->
+    <div id="header">
+      <div id="logo"> <a href="#"><img src="images/logos/layout_set_logo.png" alt="Go to KRSTE" title="Go To KRSTE"  /></a> </div>
+      <div id="localize">
+        <ul>
+          <li><a href="#" title="Change The Language To English">English </a></li>
+          <li> | </li>
+          <li><a href="#" title="Change The Language To Bahasa Melayu">Bahasa Melayu </a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Header Code Ends Here -->
+    <!-- Header - Top Navigation Code Starts Here -->
+    <div id="navigation">
+      <ul id="nav">
+        <li> <a href="index2.html"> <img src="images/icons/icon-home.png"/ alt=""> <br/>
+          Home </a> </li>
+		 
+		   <li> <a href="personInformation.html"> <img src="images/icons/icon-admin.png"/ alt=""> <br/>
+          Person Info </a> </li>
+		  <li> <a href="formErrors.html"> <img src="images/icons/icon-create.png"/ alt=""> <br/>
+          Form Errors </a> </li>
+		  <li> <a href="selectedRegister.html"> <img src="images/icons/icon-search.png"/ alt=""> <br/>
+          Selected Register </a> </li>
+      </ul>
+    </div>
+    <!--Top Navigation Code Ends Here -->
+    <div id="submenuPlaceholder"> </div>
+    <div id="content">
+    
+    
+    
+    <a class="standard-button" value="SEARCH"></a>
+      
+    <!-- Modal Window Code -->  
+      <div id="modalWindow">
+        <div id="modalWindowTitleBar"> <span class="modalWindowHeading">Person Detail</span> <a href="#">
+        <span class="iconClose"><img src="images/icons/close-panel-icon.png" alt=""/> </span></a> </div>
+        <div id="modalWindowContent">
+          <div id="profileImage">
+          <img src="images/sample-images/user-profile-image-default.png" alt="" />
+          <div>
+          <a>More Detail</a>
+          </div>
+          </div>
+          <div id="profileData">
+            <table class="profile">
+              <tbody>
+                <tr >
+                  <td>Title</td>
+                  <td>Ahmad Tarmizi Rashid</td>
+                </tr>
+                <tr >
+                  <td>Email</td>
+                  <td>ahmadtarmizi@upm.edu.my</td>
+                </tr>
+                 <tr >
+                  <td>Telephone No (Office)</td>
+                  <td>0389640000</td>
+                </tr>
+                 <tr >
+                  <td>Telephone No (Office)</td>
+                  <td>0389640001</td>
+                </tr>
+                 <tr >
+                  <td>Mobile Phone No</td>
+                  <td>0389640002</td>
+                </tr>
+                <tr >
+                  <td>Area of Experience</td>
+                  <td>Computer Engineering</td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+           <!-- Modal Window Code -->
+           
+           <br/><br/><br/>
+           
+      
+            <!-- Onclick Modal Window -->
+      <div id="dialog" title="Person Detail" style="background-color:#ffffff;color:#ffffff;font-size:16px;"> 
+      <div id="modalWindow">
+       
+        <div id="modalWindowContent">
+          <div id="profileImage">
+          <img src="images/sample-images/user-profile-image-default.png" alt="" />
+          <div>
+          <a>More Detail</a>
+          </div>
+          </div>
+          <div id="profileData">
+            <table class="profile">
+              <tbody>
+                <tr >
+                  <td>Title</td>
+                  <td>Ahmad Tarmizi Rashid</td>
+                </tr>
+                <tr >
+                  <td>Email</td>
+                  <td>ahmadtarmizi@upm.edu.my</td>
+                </tr>
+                 <tr >
+                  <td>Telephone No (Office)</td>
+                  <td>0389640000</td>
+                </tr>
+                 <tr >
+                  <td>Telephone No (Office)</td>
+                  <td>0389640001</td>
+                </tr>
+                 <tr >
+                  <td>Mobile Phone No</td>
+                  <td>0389640002</td>
+                </tr>
+                <tr >
+                  <td>Area of Experience</td>
+                  <td>Computer Engineering</td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+      <button name="ok" type="button" value="Click Here to Open CSS Modal" id="opener" style="font-weight:bold;"> Click Here to Open CSS Modal</button> 
+
+      <br/><br/><br/>
+      <!-- Onclick Modal Window -->
+      
+      <div id="successMessage">
+        <div id="messageHeader"> </div>
+        <div id="messageContent">
+          <div id="messageImage"> <img src="images/registration-success.png" alt=""/> </div>
+          <div id="messageText"> Congratulations !!! <br/>
+            <br/>
+            <span class="message">Registration was successful. A confirmation email has been sent to your mail box.</span> </div>
+        </div>
+        <div id="messageFooter">
+          <button name="ok" type="button" value="ok">OK</button>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <table id="tableOfIcons" width="550" align="right"  cellpadding="2" cellspacing="2">
+        <tr>
+          <td>CSS Path : link rel="stylesheet" href="css/error.css" <br/>
+            <br/>
+            Errors :<br/>
+            <br/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="profile_firstName">First Name is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="profile_lastName">Last Name is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="profile_email">Email is Mandatory!</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="profile_userId">Screen Name is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="password">Password is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="userConfirmation">Password Confirmation is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" for="profile_org">Type of Organization is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error" >Type of Organization is Mandatory!</label></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td><br/>
+            <br/>
+            Alerts/Warnings:<br/>
+            <br/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="alert" >Sample Alert Text ! Sample Alert Text</label></td>
+        </tr>
+        <tr>
+          <td><br/>
+            <br/>
+            Info / Help:<br/>
+            <br/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="info" >Sample Info Text ! Sample Info Text</label></td>
+        </tr>
+        <tr>
+          <td><br/>
+            <br/>
+            Without Left Pointer: <br/>
+            <br/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label class="error2" >Here is no Pointer ! Here is no Pointer !</label></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!-- Container DIV Ends Here -->
+  <!-- Footer Div Starts Here -->
+  <div id="footer">
+    <div id="footerLogo"> <img src="images/logos/mosti-logo.png"/> </div>
+    <div id="footerNavigation">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+    <div id="footerContent">
+      <p>©2009-2011, Ministry of Science, Technology and Innovation (MOSTI). Knowledge Resources for Science and Technology Excellence Malaysia.<br/>
+        Managed by Malaysian Science and Technology Information Centre (MASTIC). <br/>
+        Disclaimer: The Government shall not be liable for any loss or damage caused by the usage of any information obtained from this website. <br/>
+        Best viewed with Firefox 3.6, Internet Explorer 8, Google Chrome 7.0 and Opera 10 and above. Best resolution is 1024 x 768 and above.</p>
+    </div>
+  </div>
+  <!-- Footer Div Ends Here -->
+</div>
+<!-- Wrapper DIV Code Ends Here -->
+</body>
+</html>

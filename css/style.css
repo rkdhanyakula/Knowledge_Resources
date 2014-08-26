@@ -1,0 +1,2740 @@
+/* Home Page Public - CSS Code */
+
+/* Global Element CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+a img {
+	border: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration:none;
+}
+/* Global Element CSS Ends Here*/
+
+/* Web Page Full Width Container  and Wrapper Code Starts Here */
+#wrapper {
+	width: 100%;
+	height: auto;
+	background-color: #b4c0c5;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	float: left;
+	overflow: hidden;
+}
+#container {
+	width: 1000px;
+	height: auto;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	background-color: #fff;
+	box-shadow: 1px 3px 10px #888888;
+	overflow: hidden;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+/*Web Page Full Width Container  and Wrapper Code Starts Here */
+
+/* Header CSS Code */
+#header {
+	width: 1000px;
+	height: 70px;
+	float: left;
+}
+#logo {
+	float: left;
+	height: 60px;
+	width: 140px;
+	padding-top: 20px;
+	padding-left: 13px;
+}
+#logo img {
+	border: 0;
+}
+#register {
+	float: right;
+	height: 70px;
+	width: 300px;
+}
+#login ul {
+	list-style-type: none;
+	margin-top: 4px;
+	width: 140px;
+}
+#login ul li {
+	float: left;
+	padding-left: 2px;
+	padding-bottom: 3px;
+}
+#login ul li a {
+	color: #15ADFA;
+	text-decoration: none;
+}
+#login ul li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+/* Private User Info Panel CSS */
+#private #register {
+	float: right;
+	height: 70px;
+	width: 300px;
+}
+#private #login ul {
+	list-style-type: none;
+	margin-top: 4px;
+	width: auto;
+	max-width: 215px;
+}
+#private #login ul li {
+	float: left;
+	width: 148px;
+	height: 21px;
+}
+#private #login ul li#user-info {
+}
+#private #login ul li a {
+	color: #15ADFA;
+	text-decoration: none;
+}
+#private #login ul li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+#private #login #userPhoto {
+	width: 44px;
+	height: 41px;
+	float: left;
+	padding-left: 9px;
+	padding-top: 4px;
+}
+#private #login #userPhoto img {
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+#private #login #logout {
+	width: 225px;
+	height: 45px;
+	float: left;
+}
+#private #login #logout li.userName {
+	color: #ffffff;
+	border-bottom: 1px dashed #666666;
+	width: auto;
+	overflow: hidden;
+	height: 16px;
+}
+#private #localize {
+	float: right;
+	height: 22px;
+	margin-top: 12px;
+	width: 160px;
+	margin-right: 98px;
+}
+#private #localize ul {
+	margin: 0;
+	padding-top: 4px;
+	width: 160px;
+}
+#private #localize ul li {
+	display: inline;
+	list-style-type: none;
+}
+#private #localize ul li a {
+	color: #336699;
+	text-decoration: none;
+}
+#private #localize ul li a:hover {
+	color: #339999;
+}
+#private #open-panel {
+}
+#private a #open-panel {
+	text-decoration: none;
+	color: #ACACAC;
+	width: 72px;
+	height: 18px;
+	font-size: 11px;
+	background-color: #333333;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 2px 3px #979797;
+	background-image: linear-gradient(#352C2C, #333333, #333333);
+	border: 1px solid #6F6E6E;
+	border-top: none;
+	float: right;
+	padding: 0 0px 0 12px;
+	margin-right: 2px;
+}
+#private a #open-panel:hover {
+	color: #ff9900;
+	box-shadow: 0px 2px 3px #333333;
+	border: 1px solid #969696;
+	border-top: none;
+}
+/* Private User Info Panel CSS Ends*/
+
+#public #login ul {
+	list-style-type: none;
+	width: 101px;
+	margin-left: 37px;
+	height: 30px;
+}
+#public #login ul li {
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 4px;
+}
+#login #userPhoto {
+	width: 44px;
+	height: 41px;
+	float: left;
+	padding-left: 9px;
+	padding-top: 4px;
+}
+#login #userPhoto img {
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+#login #logout {
+	width: 140px;
+	height: 45px;
+	float: left;
+}
+#login #logout li.userName {
+	color: #ffffff;
+	border-bottom: 1px dashed #666666;
+	width: 132px;
+	overflow: hidden;
+	height: 17px;
+}
+#localize {
+	float: right;
+	height: 22px;
+	width: auto;
+	position: relative;
+	top: 32px;
+	right: 10px;
+}
+#localize ul {
+	margin: 0;
+	padding-top: 4px;
+	width: 160px;
+}
+#localize ul li {
+	display: inline;
+	list-style-type: none;
+}
+#localize ul li a {
+	color: #336699;
+	text-decoration: none;
+}
+#localize ul li a:hover {
+	color: #339999;
+}
+/* Header CSS Code Ends Here */
+
+/* Header - Top navigation CSS Starts Here */
+#navigation {
+	background-color: #71BDDA;
+	background-image: linear-gradient(#71BDDA, #419BC7);
+	border-color: #94D4EC #3F9AC7 #2D81AA;
+	border-image: none;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	list-style: none outside none;
+	padding: 0;
+	width: 980px;
+	margin: 5px 0 0 10px;
+	box-shadow: 1px 2px 3px #999999;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#71BDDA, endColorstr=#419BC7);
+}
+#navigation ul {
+	list-style-type: none;
+	width: auto;
+	height: auto;
+}
+#navigation ul li {
+	width: 157px;
+	color: #FFFFFF;
+	height: auto;
+}
+/* Header - Top navigation CSS Ends Here */
+
+/*Sub Menu Place holder Code Starts Here */
+#submenuPlaceholder {
+	float: left;
+	list-style: none outside none;
+	width: 980px;
+	margin: 5px 0 0 10px;
+	height: 31px;
+	display: none;
+}
+/*Sub Menu Place holder Code Ends Here */
+
+
+/* Content Area Code */
+
+#content {
+	width: 100%;
+	min-height: 400px;
+	height: auto;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+/* Registration Form CSS and Layout Code Here */
+
+#registration {
+	float: none;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 300px;
+	padding-left: 0;
+	width: 940px;
+}
+#breadcrumbs {
+	width: 940px;
+	height: 32px;
+	float: left;
+}
+#breadcrumbs h2 {
+	font-family: Calibri, Arial;
+	font-size: 21px;
+	color: #336699;
+	margin-top: 3px;
+}
+#registerTaskbar {
+	background-image: linear-gradient(#71BDDA, #419BC7);
+	background-color: #71BDDA;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color: #FFFFFF;
+	float: left;
+	font-family: Calibri, Arial;
+	font-size: 18px;
+	height: 35px;
+	width: 940px;
+}
+.registerTitle {
+	margin-left: 6px;
+	float: left;
+	margin-top: 8px;
+}
+#registerTaskbar .iconHelp img {
+	float: right;
+	display: block;
+	margin-right: 6px;
+	margin-top: 8px;
+}
+#registrationForm {
+	border: 1px solid #E7E7E7;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	float: left;
+	min-height: 400px;
+	height: auto;
+	margin-bottom: 10px;
+	width: 938px;
+	box-shadow: 1px 2px 3px #e7e7e7;
+}
+#registrationForm .formItem {
+	float: left;
+	min-height: 30px;
+	height: auto;
+	margin-left: 2px;
+	margin-top: 11px;
+	width: 930px;
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #e7e7e7;
+}
+#registrationForm .fieldTitle {
+	width: 186px;
+	float: left;
+	height: 30px;
+	color: #336699;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-left: 5px;
+	text-align: left;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 16px;
+}
+#registrationForm .inputField {
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: auto !important;
+	min-height: 27px;
+	min-width: 225px;
+	width: auto;
+}
+#organization_information {
+	background-image: linear-gradient(#71BDDA, #419BC7);
+	background-color: #71BDDA;
+	color: #FFFFFF;
+	float: left;
+	font-family: Calibri, Arial;
+	font-size: 18px;
+	height: 35px;
+	width: 940px;
+	margin-top: 5px;
+}
+#organization_information .organizationTitle {
+	float: left;
+	margin-left: 6px;
+	margin-top: 8px;
+}
+#registrationForm .formItem input[type="submit"] {
+	width: 100px;
+	height: 33px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 206px;
+	margin-top: 0 !important;
+	background-image: linear-gradient(#11B7CE, #147486, #076988);
+	background-repeat: no-repeat;
+	display: block;
+	border: none;
+	background-color: #2797C2;
+	border-radius: 4px;
+	color: #ffffff;
+	border-color: #15b1e2;
+	float: left;
+}
+#registrationForm .formItem input[type="submit"]:hover {
+	opacity: .9;
+	border: 1px solid #14B4E7;
+}
+#registrationForm .formItem input[type="reset"] {
+	width: 100px;
+	height: 33px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 0 !important;
+	background-image: linear-gradient(#11B7CE, #147486, #076988);
+	background-repeat: no-repeat;
+	display: block;
+	border: none;
+	background-color: #2797C2;
+	border-radius: 4px;
+	color: #ffffff;
+	border-color: #15b1e2;
+	float: left;
+}
+#registrationForm .formItem input[type="reset"]:hover {
+	opacity: .9;
+	border: 1px solid #14B4E7;
+}
+#registrationForm .inputField input[type="text"], #registrationForm .inputField input[type="email"], #registrationForm .inputField input[type="password"], #registrationForm .inputField select {
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	font-family: calibri;
+	font-size: 16px;
+	padding-left: 5px;
+	width: 150px;
+}
+#registrationForm .inputField .formHint {
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	color: #999999;
+	float: left;
+	padding-top: 4px;
+	padding-left: 2px;
+}
+#registrationForm input:focus {
+	outline: #99ff00;
+	box-shadow: 0px 0px 5px #99ff00;
+	border-color: #99ff00;
+	color: #669900;
+}
+/* Registration Form CSS and Layout Code Ends Here */
+
+/* Selected Registration Page CSS Starts Here */
+
+#selectedRegistrtaion {
+	width: 980px;
+	min-height: 430px;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+}
+#goBack {
+	width: 980px;
+	height: 32px;
+	float: none;
+}
+h2.goBackLink {
+	background-image: url(../images/buttons/back-button.png);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 90px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #e7e7e7;
+	padding-left: 46px;
+	padding-top: 5px;
+	float: left;
+}
+h2.goBackLink:hover {
+	opacity: .95;
+	color: #ffffff;
+}
+#selectingRegion {
+	width: 978px;
+	height: auto;
+	float: none;
+	border: 1px solid #e7e7e7;
+	border-radius: 0 10px 10px 10px;
+	box-shadow: 1px 2px 3px #999999;
+	min-height: 320px;
+}
+#regionShadow {
+	background-image: url(../images/shadows/regionShadow.png);
+	background-repeat: no-repeat;
+	width: 973px;
+	height: 50px;
+	float: none;
+	margin-left: 7px;
+	display:inline-block;
+}
+#registerButtons {
+	width: 288px;
+	min-height: 220px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: auto;
+}
+h2.availableOrganizations {
+	background-image: url(../images/buttons/available-organizations-button.png);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	height: 50px;
+	width: 268px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-top: 13px;
+	float: left;
+	opacity: .9;
+}
+h2.availableOrganizations:hover {
+	opacity: .99;
+}
+h2.newOrganizations {
+	background-image: url(../images/buttons/new-organizations-button.png);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	height: 50px;
+	width: 268px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-top: 13px;
+	float: left;
+	opacity: .9;
+}
+h2.newOrganizations:hover {
+	opacity: .99;
+}
+h2.individualOrganizations {
+	background-image: url(../images/buttons/individual-organizations-button.png);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	height: 50px;
+	width: 268px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-top: 13px;
+	float: left;
+	opacity: .9;
+}
+h2.individualOrganizations:hover {
+	opacity: .99;
+}
+/* Selected Registration Page CSS Ends Here */
+
+
+/* Content Area Code Ends Here */
+
+/*Footer Code Starts Here */
+#footer {
+	width: 980px;
+	height: 177px;
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+	margin-top: 15px;
+}
+#footerLogo {
+	width: 980px;
+	height: 50px;
+	float: left;
+}
+#footerNavigation {
+	width: 980px;
+	height: 40px;
+	float: left;
+}
+#footerContent {
+	width: 980px;
+	height: 87px;
+	float: left;
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+}
+#footerNavigation ul {
+	list-style: none;
+	display: inline-block;
+	padding-top: 7px;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#footerNavigation ul li {
+	color: #FFFFFF;
+	display: inline;
+	list-style-type: none;
+	padding: 15px;
+}
+#footerNavigation ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+#footerNavigation ul li a:hover {
+	text-shadow: 1px 1px #999;
+	text-decoration: underline;
+	color: #e7e7e7;
+}
+#footerContent p {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #333;
+}
+/*Footer Code Ends Here */
+
+/* Available Organizations CSS Starts Here */
+
+#availableOrganizationsMainContainer {
+	width: 980px;
+	height: auto;
+	min-height: 800px;
+	float: none;
+	margin: 0 auto;
+}
+#searchOrganizations {
+	width: 625px;
+	height: auto;
+	min-height: 330px;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+#searchOrganizationsTitle {
+	background-color: #336699;
+	background-image: linear-gradient(#3399CC, #336699, #3399CC);
+/*Gradient bg for IE */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3399CC, endColorstr=#336699);
+	/*Gradient bg for IE */
+	border-radius: 6px 6px 6px 6px;
+	color: #FFFFFF;
+	float: left;
+	font-family: Segoe UI, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	height: 35px;
+	width: 625px;
+	box-shadow: 2px 2px 3px #999999;
+}
+#searchOrganizationsTitle h2 {
+	font-family: Segoe UI, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 7px;
+	padding-top: 4px;
+}
+#searchOrganizationsHints {
+	float: left;
+	width: 625px;
+	height: 30px;
+	font-family: Calibri, Arial;
+	color: #333333;
+	font-size: 14px;
+	border-bottom: 1px dashed #e7e7e7;
+	margin-top: 7px;
+	padding-bottom: 14px;
+	line-height: 20px;
+	padding-left: 4px;
+	text-shadow: 1px 1px 1px #e7e7e7;
+}
+#searchOranizationsForm {
+	padding-left: 4px;
+	min-height: 200px;
+	float: left;
+	height: auto;
+	margin-bottom: 10px;
+	width: 625px;
+}
+#searchOranizationsForm .formItem {
+	float: left;
+	min-height: 30px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 11px;
+	width: 603px;
+}
+#searchOranizationsForm .fieldTitle {
+	width: 140px;
+	float: left;
+	height: 30px;
+	color: #336699;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	margin-top: 2px;
+	text-align: right;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 16px;
+}
+#searchOranizationsForm .inputField {
+	color: #666666;
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: auto !important;
+	min-height: 30px;
+	width: 380px;
+}
+#searchOranizationsForm input:focus {
+	outline: #99ff00;
+	box-shadow: 0px 0px 5px #99ff00;
+	border-color: #99ff00;
+	color: #669900;
+}
+#searchOranizationsForm .formItem input[type="submit"] {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 383px;
+	background-image: url(../images/icons/search-magnifier-icon.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-color: #2797C2;
+	border-radius: 4px;
+	color: #ffffff;
+	border: 1px solid #15b1e2;
+	height: 32px;
+	margin-right: 60px;
+	margin-top: 7px;
+	padding-left: 28px;
+	width: 127px;
+	float: right;
+	background-position-x: 4px;
+	background-position-y: 50%;
+}
+#searchOranizationsForm .formItem input[type="submit"]:hover {
+	opacity: .9;
+	border: 1px solid #14B4E7;
+	background-position-x: 5px;
+	background-position-y: 50%;
+	border-color: #0066CC;
+}
+#searchOranizationsForm .inputField input[type="text"], #searchOranizationsForm .inputField input[type="email"], #searchOranizationsForm .inputField input[type="password"], #searchOranizationsForm .inputField select {
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	font-family: calibri;
+	font-size: 16px;
+	padding-left: 5px;
+}
+#searchOranizationsForm .inputField .formHint {
+	font-family: Arial;
+	font-size: 14px;
+	color: #999999;
+}
+#availableOrganizations {
+	width: 625px;
+	height: auto;
+	min-height: 415px;
+	float: left;
+}
+#availableOrganizationsTitle {
+	background-color: #336699;
+	background-image: linear-gradient(#3399CC, #336699, #3399CC);
+	box-shadow: 2px 2px 3px #999999;
+	border-radius: 6px 6px 0 0;
+	color: #FFFFFF;
+	float: left;
+	font-family: Segoe UI, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	height: 35px;
+	width: 625px;
+}
+#availableOrganizationsTitle h2 {
+	font-family: Segoe UI, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 7px;
+	padding-top: 4px;
+}
+#availableOrganizationsItems {
+	float: left;
+	height: 375px;
+	width: 623px;
+	border: 1px solid #e7e7e7;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	box-shadow: 1px 2px 3px #999999;
+}
+#availableOrganizationsList {
+	width: 623px;
+	height: 280px;
+	float: left;
+}
+#availableOrganizationsItem {
+	border-bottom: 1px dashed #E7E7E7;
+	float: left;
+	height: 90px;
+	margin-left: 6px;
+	margin-top: 2px;
+	width: 610px;
+}
+#availableOrganizationsLogo {
+	width: 75px;
+	height: 70px;
+	float: left;
+	border: 1px solid #e7e7e7;
+	margin-left: 2px;
+	margin-top: 6px;
+	box-shadow: 1px 2px 3px #999999;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#availableOrganizationsLogo img {
+	width: 70px;
+	height: auto;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+#availableOrganizationsName {
+	width: 460px;
+	height: 30px;
+	float: left;
+	margin-top: 7px;
+	margin-left: 4px;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	padding-left: 4px;
+	color: #EBA510;
+	font-size: 17px;
+	text-transform: capitalize;
+	overflow: hidden;
+	line-height: 26px;
+}
+#availableOrganizationsName a {
+	text-decoration: none !important;
+	color: #EBA510;
+}
+#availableOrganizationsName a:hover {
+	color: #FD940E;
+	text-shadow: 1px 1px 1px #e7e7e7;
+}
+#availableOrganizationsDecsription {
+	width: 460px;
+	height: 40px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 4px;
+	font-family: Calibri, Tahoma;
+	font-weight: normal;
+	color: #333333;
+	overflow: hidden;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 4px;
+	font-size: 13PX;
+}
+#availableOrganizationsSelect {
+	width: 42px;
+	height: 30px;
+	float: right;
+	margin-top: 3px;
+	margin-left: 4px;
+	font-family: Arial;
+	font-weight: normal;
+	text-align: right;
+	padding-top: 8px;
+	margin-right: 8px;
+}
+#availableOrganizationsAll {
+	width: 616px;
+	height: 30px;
+	float: left;
+	font-family: Arial;
+	color: #690;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+	padding-top: 4px;
+}
+#availableOrganizationsAll input[type="button"] {
+	width: 87px;
+	height: 30px;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	font-size: 16px;
+	background-image: linear-gradient(#0F96DA, #2C88D1);
+	border-radius: 4px;
+	color: #fff;
+	border: 1px solid #ffffff;
+	background-color: #3399cc;
+	box-shadow: 1px 2px 3px #e7e7e7;
+}
+#availableOrganizationsAll input[type="button"]:hover {
+	background-image: linear-gradient(#1EABEE, #1284EE);
+	box-shadow: 1px 2px 3px #999999;
+	cursor: pointer;
+}
+#availableOrganizationsPagination {
+	width: 623px;
+	height: 55px;
+	float: left;
+}
+#availableOrganizationsPagination {
+	font-family: Calibri, Arial;
+	height: 45px;
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	display: inline;
+	width: 250px;
+	height: 30px;
+	margin-left: 194px;
+	margin-top: 8px;
+}
+#availableOrganizationsPagination #previous {
+	background-image: url(../images/icons/previous-icon.png);
+	background-repeat: no-repeat;
+	width: 83px;
+	text-align: left;
+	border-radius: 3px;
+	float: left;
+	padding-top: 13px;
+	padding-left: 40px;
+	color: #035003;
+	height: 29px;
+	float: left;
+}
+#availableOrganizationsPagination #previous:hover {
+	color: #fff;
+	cursor: default;
+}
+#availableOrganizationsPagination #next {
+	background-image: url(../images/icons/next-icon.png);
+	background-repeat: no-repeat;
+	width: 83px;
+	text-align: left;
+	border-radius: 3px;
+	float: left;
+	padding-top: 13px;
+	padding-left: 40px;
+	color: #035003;
+	height: 29px;
+	float: left;
+}
+#availableOrganizationsPagination #next:hover {
+	color: #fff;
+	cursor: default;
+}
+#popularOrganizations {
+	width: 345px;
+	height: auto;
+	min-height: 748px;
+	float: right;
+}
+#popularOrganizationsTitle {
+	background-color: #336699;
+	background-image: linear-gradient(#99cc33, #669933, #99cc33);
+	box-shadow: 2px 2px 3px #999999;
+	border-radius: 6px 6px 0 0;
+	color: #FFFFFF;
+	float: left;
+	font-family: Segoe UI, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	height: 35px;
+	width: 345px;
+}
+#popularOrganizationsTitle h2 {
+	font-family: Segoe UI, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 7px;
+	padding-top: 4px;
+}
+#popularOrganizationsItems {
+	float: left;
+	height: 710px;
+	width: 343px;
+	border: 1px solid #e7e7e7;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	box-shadow: 1px 2px 3px #999999;
+}
+#popularOrganizationsList {
+	width: 343px;
+	height: 614px;
+	float: left;
+}
+#popularOrganizationsItem {
+	border-bottom: 1px dashed #E7E7E7;
+	float: left;
+	height: 147px;
+	margin-left: 6px;
+	margin-top: 6px;
+	width: 333px;
+}
+#popularOrganizationsLogo {
+	width: 75px;
+	height: 70px;
+	float: left;
+	border: 1px solid #e7e7e7;
+	margin-left: 2px;
+	margin-top: 6px;
+	box-shadow: 1px 2px 3px #999999;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#popularOrganizationsLogo img {
+	width: 70px;
+	height: auto;
+}
+#popularOrganizationsName {
+	width: 158px;
+	height: 59px;
+	float: left;
+	margin-top: 7px;
+	margin-left: 4px;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	padding-left: 4px;
+	color: #EBA510;
+	font-size: 16px;
+	text-transform: capitalize;
+	overflow: hidden;
+	line-height: 20px;
+}
+#popularOrganizationsName a {
+	text-decoration: none !important;
+	color: #EBA510;
+}
+#popularOrganizationsName a:hover {
+	color: #FD940E;
+	text-shadow: 1px 1px 1px #e7e7e7;
+}
+#popularOrganizationsDecsription {
+	width: 310px;
+	height: 58px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 4px;
+	font-family: Calibri, Tahoma;
+	font-weight: normal;
+	color: #666666;
+	overflow: hidden;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 0px;
+	font-size: 12px;
+}
+#popularOrganizationsSelect {
+	width: 65px;
+	height: 35px;
+	float: right;
+	margin-top: 6px;
+	margin-left: 4px;
+	font-family: Calibri, Arial;
+	font-weight: normal;
+	text-align: right;
+	padding-top: 4px;
+	margin-right: 12px;
+}
+#popularOrganizationsSelect input[type="submit"] {
+	width: 47px;
+	height: 28px;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	font-size: 16px;
+	background-image: linear-gradient(#99cc33, #72A214);
+	border-radius: 2px;
+	color: #fff;
+	border: 1px solid #ffffff;
+	background-color: #99cc33;
+	box-shadow: 1px 2px 3px #e7e7e7;
+}
+#popularOrganizationsSelect input[type="submit"]:hover {
+	background-image: linear-gradient(#99cc33, #608D09);
+	box-shadow: 1px 2px 3px #999999;
+	cursor: pointer;
+}
+#popularOrganizationsAll {
+	width: 338px;
+	height: 30px;
+	float: left;
+	font-family: Arial;
+	color: #690;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+	padding-top: 7px;
+}
+#popularOrganizationsPagination {
+	width: 343px;
+	height: 55px;
+	float: left;
+	margin-left: 52px;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+#popularOrganizationsPagination #previous {
+	background-image: url(../images/icons/previous-icon.png);
+	background-repeat: no-repeat;
+	width: 83px;
+	text-align: left;
+	border-radius: 3px;
+	float: left;
+	padding-top: 13px;
+	padding-left: 40px;
+	color: #035003;
+	height: 29px;
+	float: left;
+}
+#popularOrganizationsPagination #previous:hover {
+	color: #fff;
+	cursor: default;
+}
+#popularOrganizationsPagination #next {
+	background-image: url(../images/icons/next-icon.png);
+	background-repeat: no-repeat;
+	width: 83px;
+	text-align: left;
+	border-radius: 3px;
+	float: left;
+	padding-top: 13px;
+	padding-left: 40px;
+	color: #035003;
+	height: 29px;
+	float: left;
+}
+#popularOrganizationsPagination #next:hover {
+	color: #fff;
+	cursor: default;
+}
+/* Available Organizations CSS Starts Here */
+
+/* User Login Page CSS Starts Here */
+
+#userLogin {
+	width: 980px;
+	min-height: 430px;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+}
+#userLoginRegion {
+	width: 978px;
+	height: auto;
+	float: none;
+	border: 1px solid #e7e7e7;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 2px 3px #999999;
+	min-height: 320px;
+}
+#userLoginForm {
+	width: 600px;
+	min-height: 320px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: auto;
+}
+#userLoginForm #login_information {
+	background-image: linear-gradient(#71BDDA, #419BC7);
+	background-color: #71BDDA;
+	color: #FFFFFF;
+	float: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	height: 50px;
+	width: 600px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px #999999;
+	margin-bottom: 20px;
+}
+#userLoginForm #login_information .loginTitle {
+	background-image: url(../images/icons/signin-icon.png);
+	display: block;
+	float: left;
+	margin-left: 16px;
+	margin-top: 4px;
+	height: 45px;
+	background-repeat: no-repeat;
+	padding-left: 54px;
+	padding-top: 7px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Calibri, Arial;
+}
+#userLoginForm .formItem {
+	float: left;
+	min-height: 30px;
+	height: auto;
+	margin-top: 11px;
+	width: 600px;
+}
+#userLoginForm .fieldTitle {
+	width: 221px;
+	float: left;
+	height: 30px;
+	color: #336699;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	margin-top: 4px;
+	text-align: right;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 16px;
+}
+#userLoginForm .inputField {
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: auto !important;
+	min-height: 27px;
+	width: 222px;
+}
+#userLoginForm .formItem input[type="submit"] {
+	width: 101px;
+	height: 33px;
+	font-family: aRIAL;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 366px;
+	margin-top: 8px;
+	background-image: linear-gradient(#11B7CE, #147486, #076988);
+	background-repeat: no-repeat;
+	display: block;
+	border: none;
+	background-color: #2797C2;
+	border-radius: 4px;
+	color: #ffffff;
+	border-color: #15b1e2;
+}
+#userLoginForm .formItem input[type="submit"]:hover {
+	opacity: .9;
+	border: 1px solid #14B4E7;
+}
+#userLoginForm .inputField input[type="text"], #userLoginForm .inputField input[type="password"] {
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	padding-left: 5px;
+}
+#userLoginForm .inputField .formHint {
+	font-family: Calibri, Arial;
+	font-size: 14px;
+	color: #999999;
+}
+#userLoginForm input:focus {
+	outline: #99ff00;
+	box-shadow: 0px 0px 5px #99ff00;
+	border-color: #99ff00;
+	color: #669900;
+}
+#userLoginForm .formItem ul {
+	list-style-type: none;
+	margin-left: 96px;
+	margin-top: 10px;
+	font-family: Calibri;
+	font-size: 20px;
+}
+#userLoginForm .formItem ul li {
+	display: inline;
+	font-size: 22px;
+	color: #ff9900;
+	font-weight: bold;
+}
+#userLoginForm .formItem ul li a {
+	color: #ff9900;
+}
+#userLoginForm .formItem ul li a:hover {
+	text-decoration: underline;
+}
+#userLoginForm .formItem ul li.registerNow {
+	background-image: url(../images/icons/register-now-icon.png);
+	background-repeat: no-repeat;
+	padding-top: 4px;
+	padding-left: 40px;
+}
+#userLoginForm .formItem ul li.forgotPassword {
+	background-image: url(../images/icons/forgot-password-icon.png);
+	background-repeat: no-repeat;
+	padding-top: 4px;
+	padding-left: 35px;
+	margin-left: 15px !important;
+}
+/* User Login Page CSS Ends Here */
+
+/* Forgot Password CSS Starts Here */
+
+#forgotPassword {
+	width: 980px;
+	min-height: 430px;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+}
+#forgotPasswordRegion {
+	width: 978px;
+	height: auto;
+	float: none;
+	border: 1px solid #e7e7e7;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 2px 3px #999999;
+	min-height: 320px;
+}
+#forgotPasswordForm {
+	width: 600px;
+	min-height: 320px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: auto;
+}
+#forgotPasswordForm #forgot_password_information {
+	background-image: linear-gradient(#71BDDA, #419BC7);
+	background-color: #71BDDA;
+	color: #FFFFFF;
+	float: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	height: 50px;
+	width: 600px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px #999999;
+	margin-bottom: 20px;
+}
+#forgotPasswordForm #forgot_password_information .forgotPasswordTitle {
+	background-image: url(../images/icons/forgot-password-icon-42x42.png);
+	display: block;
+	float: left;
+	margin-left: 16px;
+	margin-top: 4px;
+	height: 45px;
+	background-repeat: no-repeat;
+	padding-left: 54px;
+	padding-top: 7px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Calibri, Arial;
+}
+#forgotPasswordForm .formItem {
+	float: left;
+	min-height: 30px;
+	height: auto;
+	margin-top: 11px;
+	width: 600px;
+}
+#forgotPasswordForm .fieldTitle {
+	width: 221px;
+	float: left;
+	height: 30px;
+	color: #336699;
+	font-family: Calibri, Arial;
+	font-weight: bold;
+	margin-top: 4px;
+	text-align: right;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 16px;
+}
+#forgotPasswordForm .inputField {
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	height: auto !important;
+	min-height: 27px;
+	width: 222px;
+}
+#forgotPasswordForm .formItem input[type="submit"] {
+	width: 160px;
+	height: 34px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 236px;
+	margin-top: 8px;
+	background-image: linear-gradient(#11B7CE, #147486, #076988);
+	background-repeat: no-repeat;
+	display: block;
+	border: 1px solid #3399ff;
+	background-color: #2797C2;
+	border-radius: 4px;
+	color: #ffffff;
+	border-color: #15b1e2;
+}
+#forgotPasswordForm .formItem input[type="submit"]:hover {
+	opacity: .9;
+	border: 1px solid #14B4E7;
+	border-style: double;
+}
+#forgotPasswordForm .inputField input[type="text"], #forgotPasswordForm .inputField input[type="password"] {
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	padding-left: 5px;
+}
+#forgotPasswordForm .inputField .formHint {
+	font-family: Calibri, Arial;
+	font-size: 14px;
+	color: #999999;
+}
+#forgotPasswordForm input:focus {
+	outline: #99ff00;
+	box-shadow: 0px 0px 5px #99ff00;
+	border-color: #99ff00;
+	color: #669900;
+}
+#forgotPasswordForm .formItem ul {
+	list-style-type: none;
+	margin-left: 175px;
+	margin-top: 10px;
+	font-family: Calibri;
+	font-size: 20px;
+}
+#forgotPasswordForm .formItem ul li {
+	display: inline;
+	font-size: 22px;
+	color: #ff9900;
+	font-weight: bold;
+}
+#forgotPasswordForm .formItem ul li a {
+	color: #ff9900;
+}
+#forgotPasswordForm .formItem ul li a:hover {
+	text-decoration: underline;
+}
+#forgotPasswordForm .formItem ul li.registerNow {
+	background-image: url(../images/icons/register-now-icon.png);
+	background-repeat: no-repeat;
+	padding-top: 4px;
+	padding-left: 40px;
+}
+#forgotPasswordForm .formItem ul li.signIn {
+	background-image: url(../images/icons/signin-icon-32x32.png);
+	background-repeat: no-repeat;
+	padding-top: 4px;
+	padding-left: 40px;
+	margin-left: 23px;
+}
+.captcha {
+	min-width: 150px;
+	min-height: 50px;
+	width: auto;
+	height: auto;
+	float: left;
+	background-color: #E7E7E7;
+	margin-bottom: 10px;
+	border: 1px solid #e7e7e7;
+	box-shadow: 1px 2px 3px #999999;
+	border-radius: 8px;
+}
+/* Forgot Password CSS Starts Here */
+
+/* Person , Group and Organization Information Page CSS Starts Here */
+
+#printButton {
+	float: right;
+	margin-right: 20px;
+	width: 78px;
+	height: 29px;
+	background-color: #e7e7e7;
+	border-radius: 4px;
+	border: 1px solid #ffffff;
+	text-align: center;
+	position: fixed;
+	top: 21px;
+	right: 173px;
+	font-family: Calibri, Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 5px;
+	box-shadow: 1px 2px 3px #e7e7e7;
+	text-decoration: none;
+	color: #333;
+	z-index: 1;
+}
+#krsteName {
+	float: left;
+	width: 453px;
+	font-family: Calibri, Arial;
+	font-size: 23px;
+	font-weight: bold;
+	color: #76D139;
+	padding-left: 13px;
+	text-shadow: 1px 1px 1px #B0F092;
+	position: absolute;
+	top: 67px;
+	height: 60PX;
+}
+#viewWithSemanticBrowser {
+	float: right;
+	position: absolute;
+	top: 68px;
+	right: 193px;
+	background-color: #e7e7e7;
+	width: 208px;
+	height: 15px;
+	padding: 3px 3px 4px 3px;
+	font-family: Calibri, Arial;
+	font-size: 14px;
+	color: #000000;
+	text-align: center;
+	opacity: .5;
+	box-shadow: 1px 2px 3px #e7e7e7;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+}
+#viewWithSemanticBrowser a:hover {
+	color: #000000;
+}
+#profileView {
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	margin-top: 50px;
+	font-family: Calibri, Arial;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 60px;
+}
+#profileView table.krste {
+	padding: 0;
+	margin-top: 20px;
+	border-collapse: collapse;
+	width: 98%;
+	font-size: 18px;
+	border: 1px solid #e7e7e7;
+	background-color: rgb(255, 255, 250);
+	text-shadow: 0 1px #DEDEDE;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.krste th {
+	background-color: #9B9B9B;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #CCCCCC), color-stop(1.0, #9B9B9B));
+	background-image: linear-gradient(#CCCCCC, #9B9B9B);
+	color: #222222;
+	font-weight: bold;
+	padding: 5px;
+	text-shadow: 0 1px #DEDEDE;
+	vertical-align: baseline;
+	text-align: left;
+}
+table.krste td {
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #DDD;
+	padding: 5px;
+	margin: 0;
+	vertical-align: top;
+	height: auto;
+	min-width: 300px;
+	width: auto;
+}
+table.krste tr {
+	height: 35px;
+}
+.spanLink {
+	text-decoration: none;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	color: #ff9900;
+}
+.spanLink a {
+	color: #3EEB13;
+}
+/* Person , Group and Organization Information Page CSS Ends Here */
+
+/* Icons in Span Code Starts Here */
+#tableOfIcons {
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+}
+.groupIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/group-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.groupIcon:hover {
+	opacity: .85;
+}
+.organizationIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/organization-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.organizationIcon:hover {
+	opacity: .85;
+}
+.personIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/person-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.personIcon:hover {
+	opacity: .85;
+}
+.patentIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/patent-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.patentIcon:hover {
+	opacity: .85;
+}
+.productIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/product-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.productIcon:hover {
+	opacity: .85;
+}
+.projectIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/project-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.projectIcon:hover {
+	opacity: .85;
+}
+.publicationIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/publication-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.publicationIcon:hover {
+opacity:..85;
+}
+.statisticIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/statistic-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.statisticIcon:hover {
+	opacity: .85;
+}
+.websiteIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/website-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.websiteIcon:hover {
+	opacity: .85;
+}
+.equipmentModelIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/equipment-model-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.equipmentModelIcon:hover {
+	opacity: .85;
+}
+.equipmentTypeIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/equipment-type-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.equipmentTypeIcon:hover {
+	opacity: .85;
+}
+.techMartIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/techmart-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.techMartIcon:hover {
+	opacity: .85;
+}
+.facilityIcon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/icons/spanIcons/facility-icon-24x24.png);
+	background-repeat: no-repeat;
+	opacity: .99;
+	padding: 2px;
+}
+.facilityIcon:hover {
+	opacity: .85;
+}
+/* Icons in Span Code Starts Here */
+
+/* Login Drop Down CSS Starts Here */
+
+
+#login-fields {
+	width: 270px;
+	height: 100%;
+	float: left;
+	display: block;
+	padding: 10px;
+	font-size: 13px;
+}
+#login-header {
+	background-image: url("../images/icons/signin-icon-32x32.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #8CDF20;
+	display: block;
+	float: left;
+	font-family: Calibri, arial;
+	font-size: 23px;
+	font-weight: bold;
+	height: 27px;
+	padding: 7px 0px 7px 42px;
+	width: 240px;
+	margin-bottom: 7px;
+}
+#panel .loginportlet .fieldTitle {
+	width: 250px;
+	height: 27px;
+	float: left;
+	font-family: Calibri, Arial;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 20px
+}
+#panel .loginportlet .inputField {
+	width: 250px;
+	min-height: 15px;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	font-family: Calibri, Arial;
+	font-size: 14px;
+	color: #336699;
+	line-height: 20px;
+}
+#panel .loginportlet .formItem {
+}
+#panel .loginportlet .inputField input[type="text"], #panel .loginportlet .inputField input[type="password"] {
+	border: 2px solid #e7e7e7;
+	border-radius: 4px;
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	padding-left: 5px;
+	height: 15px;
+}
+#panel .loginportlet input:focus {
+	outline: #99ff00;
+	box-shadow: 0px 0px 5px #99ff00;
+	border-color: #99ff00;
+	color: #669900;
+}
+#panel .loginportlet #submit-button {
+	width: 90%;
+	height: 33px;
+	float: right;
+	text-align: right;
+	padding-right: 2px;
+}
+#panel .loginportlet #submit-button button {
+	width: 101px;
+	height: 33px;
+	font-family: aRIAL;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	background-image: linear-gradient(#11B7CE, #147486, #076988);
+	background-repeat: no-repeat;
+	display: block;
+	border: none;
+	background-color: #2797C2;
+	border-radius: 4px;
+	color: #ffffff;
+	border-color: #15b1e2;
+	float: right;
+	margin-right: 3px;
+}
+#panel .loginportlet #submit-button button:hover {
+	opacity: .9;
+	border: 1px solid #14B4E7;
+}
+#login-options {
+	width: 250px;
+	height: 25px;
+	float: left;
+	margin-top: 5px;
+}
+#panel .loginportlet #login-options ul {
+	list-style-type: none;
+	font-family: Calibri;
+	font-size: 14px;
+	width: 230px;
+	display: inline;
+	float: left;
+}
+#panel .loginportlet #login-options ul li.registerNow {
+	background-image: url(../images/icons/register-now-icon-24px.png);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 25px;
+	display: inline-block;
+}
+#panel .loginportlet #login-options ul li a {
+	color: #ff9900;
+	padding-left: 27px;
+	padding-top: 4px;
+	display: inline-block;
+}
+#panel .loginportlet #login-options ul li a:hover {
+	text-decoration: underline;
+}
+#panel .loginportlet #login-options ul li.forgotPassword {
+	background-image: url(../images/icons/forgot-password-icon-24px.png);
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 25px;
+}
+/* Login Drop Down CSS Ends Here */
+
+/* Logout Menu - Private Page - Drop Down CSS Starts Here */
+
+#user-content {
+	width: 284px;
+	height: auto;
+	float: left;
+}
+#close-info {
+	background-color: #333333;
+	background-image: linear-gradient(#353232, #423E3E, #4B4B4B);
+	color: #FFFFFF;
+	height: 25px;
+	left: 207px;
+	padding-left: 21px;
+	padding-top: 7px;
+	position: absolute;
+	top: 245px;
+	width: 82px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0px 2px 5px #333333;
+	border: 1px solid #969696;
+	border-top: none;
+	background-image: url(../images/icons/close-panel-icon.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center right;
+}
+#close-info a {
+	padding-left: 10px;
+}
+#userInfoPhoto {
+	width: 102px;
+	height: 100px;
+	float: left;
+	padding-left: 9px;
+	padding-top: 4px;
+}
+#userInfoPhoto img {
+	border: 1px solid #DADADA;
+	background-color: #ffffff;
+	border-radius: 4px;
+	width: 96px;
+	height: 96px;
+	display: block;
+}
+#userInfoOptions {
+	width: 150px;
+	height: 100px;
+	float: left;
+	padding-top: 10px;
+	line-height: 25px;
+	padding-left: 20px;
+}
+#userInfoOptions .editProfileLink {
+}
+#user-content #userInfoDetails {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 5px;
+	color: #ffffff;
+}
+#user-content #userInfoDetails #userInfoName {
+	width: auto;
+	height: auto;
+	float: left;
+	border-bottom: 1px dotted rgba(104, 104, 104, .75);
+}
+#user-content #userInfoDetails #userInfoEmail {
+	width: auto;
+	height: auto;
+	float: left;
+	border-bottom: 1px dotted rgba(104, 104, 104, .75);
+}
+#user-content #userInfoDetails #userInfoAddress {
+	width: 300px;
+	min-height: 25px;
+	height: auto;
+	float: left;
+}
+#user-content #userInfoDetails .userInfoLabel {
+	width: 70px;
+	height: auto;
+	float: left;
+	padding-left: 4px;
+	padding-top: 4px;
+}
+#user-content #userInfoDetails .userInfoData {
+	width: 190px;
+	min-height: 25px;
+	height: auto;
+	float: left;
+	padding-left: 4px;
+	padding-top: 4px;
+}
+/*Logout Menu - Private Page - Drop Down CSS Starts Here */
+
+/* Login panel User Info Public Page Contolled by page Id#public */
+
+#public #toppanel .tab {
+	width: 980px;
+	height: 5px;
+	position: relative;
+	margin: 0 auto;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+#public #toppanel .tab ul.login {
+	display: block;
+	float: right;
+	font-weight: normal;
+	padding: 0;
+	margin: -5px 0 0 0;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+#public #toppanel .tab ul.login li {
+	text-align: center;
+	padding: 0 6px;
+	display: block;
+	float: left;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	background-color: #333333;
+	background-image: linear-gradient(#303030, #0E0E0E, #473C3C);
+	border-bottom-left-radius: 10px;
+	height: 36px;
+	border-top: none;
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#public #toppanel .tab ul.login li a {
+	color: #15ADFF;
+}
+#public #toppanel .tab ul.login li a:hover {
+	color: white;
+}
+#public #toppanel .tab .sep {
+	color: #414141;
+}
+#public #toppanel .tab a.open, #public #toppanel .tab a.close {
+	height: 20px;
+	line-height: 20px!important;
+	padding: 10px!important;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+#public #toppanel {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+}
+#public #panel {
+	width: 980px;
+	margin: 0 auto;
+	color: #787878;
+	overflow: hidden;
+	z-index: 3;
+	display: none;
+}
+#public #panel h1 {
+	margin: 0;
+	color: #000;
+	text-shadow: 0 1px #FFF;
+}
+#public #panel h2 {
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	color: #000;
+}
+#public #panel p {
+	font-size: 15px;
+	margin: 15px 20px;
+	font-weight: bold;
+	padding: 0;
+}
+#public #panel a {
+	text-decoration: none;
+	color: #15ADFF;
+}
+#public #panel a:hover {
+	color: white;
+}
+#public #panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+#public #panel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: left;
+	font-size: .85em;
+}
+#public #panel .content .left {
+	width: 600px;
+	float: left;
+	padding: 0 15px;
+	color: #000;
+}
+#public #panel .content .right {
+	border-right: 1px solid #BFBFBF;
+}
+#public #panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 100px;
+	display: block;
+}
+#public #panel .content input.field {
+	border: 1px #BFBFBF solid;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 200px;
+	color: white;
+	height: 16px;
+	background-color: #FFF;
+	color: #333;
+}
+#public #panel .content input:focus.field {
+	background: #FFF;
+	color: #333;
+}
+#public #panel .loginportlet {
+	width: 284px;
+	height: auto;
+	float: right;
+	background: #2A2A2A;
+	text-align: left;
+	background-color: #333333;
+	background-image: linear-gradient(#333333, #000000, #333333);
+	border-bottom-left-radius: 10px;
+}
+#public #panel .loginportlet .portlet {
+	margin: 5px;
+}
+#public #panel .loginportlet .button-holder {
+	margin-left: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#public #panel .loginportlet .portlet-topper {
+	background: none;
+	filter: none;
+}
+#public #panel .loginportlet .portlet-title {
+	text-transform: none;
+	color: #F3D74F;
+	text-shadow: none;
+}
+#public #panel .loginportlet .portlet-content {
+	background: none;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	filter: none;
+}
+#public #panel .loginportlet label {
+	display: inline;
+	color: #FFF;
+}
+#public #panel .loginportlet input {
+	float: left;
+	border: nonel;
+}
+#public #panel .loginportlet input[type="text"], #panel .loginportlet input[type="password"] {
+	display: block;
+	padding: 5px;
+	width: 250px;
+}
+#public #panel .loginportlet input[type="submit"], #panel .loginportlet input[type="button"] {
+	float: right;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #CCC;
+	background-image: -moz-linear-gradient(#F1F1F1, #CCC);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #F1F1F1), color-stop(1.0, #CCC));
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F1F1F1', EndColorStr='#CCCCCC');
+	color: #555;
+	font: normal 1.2em/1.6em Arial;
+	text-shadow: 0 1px #FFF;
+	border: 1px solid #999;
+}
+#public #panel .loginportlet fieldset {
+	border: none;
+	margin: 0;
+}
+#public #panel .register {
+	padding: 0 10px 5px 10px;
+}
+#public #panel .register a {
+	color: #F3D74F;
+	font-size: 15px;
+	text-shadow: 0 1px #1D798E;
+	font-weight: bold;
+}
+#public #panel #login, #panel #register {
+	display: inline;
+	cursor: pointer;
+	border: none;
+}
+#public #panel .lost-pwd {
+	display: block;
+	float: left;
+	clear: right;
+	padding: 15px 5px 0;
+	font-size: .95em;
+	text-decoration: underline;
+	font-size: 11px;
+}
+#public #panel .lfr-table input[type="text"], #panel .lfr-table td input {
+	width: 100px;
+	color: #000;
+}
+#public #panel .lfr-table td {
+	color: #FFF;
+}
+#public #panel .navigation span {
+	padding: 0 3px;
+	margin: 0;
+}
+#public #panel .navigation span a {
+	outline: none;
+	text-decoration: underline;
+}
+#public #panel .lfr-component li img {
+	display: none;
+}
+#public #panel .taglib-icon-list li {
+	margin: 0;
+}
+/* Logout panel User Info Private Page Contolled by page Id#private */
+
+
+#private #toppanel .tab {
+	width: 980px;
+	height: 5px;
+	position: relative;
+	margin: 0 auto;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+#private #toppanel .tab ul.login {
+	display: block;
+	float: right;
+	font-weight: normal;
+	padding: 0;
+	margin: -5px 0 0 0;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	list-style: none;
+	height: 56px;
+}
+#private #toppanel .tab ul.login li.loginportlet-top {
+	display: block;
+	float: right;
+	height: 44px;
+	width: 284px;
+}
+#private #toppanel .tab ul.login li a {
+	color: #15ADFF;
+}
+#private #toppanel .tab ul.login li a#open {
+	text-align: center;
+	display: block;
+	float: right;
+	background-color: rgb(51, 51, 51);
+	background-image: linear-gradient(rgb(48, 48, 48), rgb(14, 14, 14), rgb(71, 60, 60));
+	border-bottom-left-radius: 10px;
+	height: 25px;
+	border-top-style: none;
+	font-size: 12px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	width: 85px;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+}
+#private #toppanel .tab ul.login li a#close {
+	text-align: center;
+	float: right;
+	background-color: rgb(51, 51, 51);
+	background-image: linear-gradient(rgb(48, 48, 48), rgb(14, 14, 14), rgb(71, 60, 60));
+	border-bottom-left-radius: 10px;
+	height: 25px;
+	border-top-style: none;
+	font-size: 12px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	display: none;
+	width: 85px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#private #toppanel .tab ul.login li a:hover {
+	color: white;
+}
+#private #toppanel .tab .sep {
+	color: #414141;
+}
+#private #toppanel .tab a.open, #private #toppanel .tab a.close {
+	height: 20px;
+	line-height: 20px!important;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+#private #toppanel {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+}
+#private #panel {
+	width: 980px;
+	margin: 0 auto;
+	color: #787878;
+	overflow: hidden;
+	z-index: 3;
+	display: none;
+}
+#private #panel h1 {
+	margin: 0;
+	color: #000;
+	text-shadow: 0 1px #FFF;
+}
+#private #panel h2 {
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	color: #000;
+}
+#private #panel p {
+	font-size: 15px;
+	margin: 15px 20px;
+	font-weight: bold;
+	padding: 0;
+}
+#private #panel a {
+	text-decoration: none;
+	color: #15ADFF;
+}
+#private #panel a:hover {
+	color: white;
+}
+#private #panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+#private #panel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: left;
+	font-size: .85em;
+}
+#private #panel .content .left {
+	width: 600px;
+	float: left;
+	padding: 0 15px;
+	color: #000;
+}
+#private #panel .content .right {
+	border-right: 1px solid #BFBFBF;
+}
+#private #panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 100px;
+	display: block;
+}
+#private #panel .content input.field {
+	border: 1px #BFBFBF solid;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 200px;
+	color: white;
+	height: 16px;
+	background-color: #FFF;
+	color: #333;
+}
+#private #panel .content input:focus.field {
+	background: #FFF;
+	color: #333;
+}
+#private .loginportlet-top {
+	width: 284px;
+	height: 40px;
+	background: #2A2A2A;
+	text-align: left;
+	background-color: #333333;
+	background-image: linear-gradient(#333333, #000000, #333333);
+	border-bottom-left-radius: 10px;
+	margin-top: 4px;
+	font-size: 13px;
+}
+#private #panel .loginportlet {
+	width: 284px;
+	min-height: 235px;
+	height: auto;
+	float: right;
+	background: #2A2A2A;
+	text-align: left;
+	background-color: #333333;
+	background-image: linear-gradient(#333333, #000000, #333333);
+	border-bottom-left-radius: 10px;
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#private #panel .loginportlet .portlet {
+	margin: 5px;
+}
+#private #panel .loginportlet .button-holder {
+	margin-left: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#private #panel .loginportlet .portlet-topper {
+	background: none;
+	filter: none;
+}
+#private #panel .loginportlet .portlet-title {
+	text-transform: none;
+	color: #F3D74F;
+	text-shadow: none;
+}
+#private #panel .loginportlet .portlet-content {
+	background: none;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	filter: none;
+}
+#private #panel .loginportlet label {
+	display: inline;
+	color: #FFF;
+}
+#private #panel .loginportlet input {
+	float: left;
+	border: nonel;
+}
+#private #panel .loginportlet input[type="text"], #panel .loginportlet input[type="password"] {
+	display: block;
+	padding: 5px;
+	width: 250px;
+}
+#private #panel .loginportlet input[type="submit"], #panel .loginportlet input[type="button"] {
+	float: right;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #CCC;
+	background-image: -moz-linear-gradient(#F1F1F1, #CCC);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #F1F1F1), color-stop(1.0, #CCC));
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F1F1F1', EndColorStr='#CCCCCC');
+	color: #555;
+	font: normal 1.2em/1.6em Arial;
+	text-shadow: 0 1px #FFF;
+	border: 1px solid #999;
+}
+#private #panel .loginportlet fieldset {
+	border: none;
+	margin: 0;
+}
+#private #panel .register {
+	padding: 0 10px 5px 10px;
+}
+#private #panel .register a {
+	color: #F3D74F;
+	font-size: 15px;
+	text-shadow: 0 1px #1D798E;
+	font-weight: bold;
+}
+#private #panel #login, #panel #register {
+	display: inline;
+	cursor: pointer;
+	border: none;
+}
+#private #panel .lost-pwd {
+	display: block;
+	float: left;
+	clear: right;
+	padding: 15px 5px 0;
+	font-size: .95em;
+	text-decoration: underline;
+	font-size: 11px;
+}
+#private #panel .lfr-table input[type="text"], #panel .lfr-table td input {
+	width: 100px;
+	color: #000;
+}
+#private #panel .lfr-table td {
+	color: #FFF;
+}
+#private #panel .navigation span {
+	padding: 0 3px;
+	margin: 0;
+}
+#private #panel .navigation span a {
+	outline: none;
+	text-decoration: underline;
+}
+#private #panel .lfr-component li img {
+	display: none;
+}
+#private #panel .taglib-icon-list li {
+	margin: 0;
+}
+/*style for public home page */
+.homepage-banner {
+	width:100%;
+	height:190px;
+	float:left;
+}
+.homepage-banner img {
+	display:block;
+}
+.homepage-search {
+	float:left;
+	width:550px;
+	height: 170px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+.search-options {
+	width:100%;
+	height:45px;
+	float:left;
+}
+ul.search-links {
+	margin-top:15px;
+	list-style-type:none;
+	display:inline;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:14px;
+	color:#336699;
+	float:right;
+}
+ul.search-links li {
+	margin-left:20px;
+	float:left;
+}
+ul.search-links li a {
+	color:#336699;
+}
+ul.search-links li a:hover {
+	color:#3399ff;
+}
+.search-field {
+	width:99%;
+	height:40px;
+	float:left;
+}
+.search-input {
+	width: 70%;
+	height: 30px;
+	border: 1px solid #CDE7FF;
+	border-top-left-radius: 9px;
+	font-family: Arial;
+	font-size: 14px;
+	padding-left: 5px;
+	box-shadow: 1px 2px 3px #C0C0C0;
+	border-bottom-left-radius: 9px;
+	float: left;
+	border-right: none !important;
+	color: #CFCFCF;
+	font-weight: bold;
+}
+.search-button {
+/*	background-image:url(../images/buttons/homepage-search-button.png);*/
+	display: block;
+background-repeat: no-repeat;
+
+width: 20%;
+height: 35px;
+opacity: .9;
+font-weight: bold;
+font-size: 14px;
+}
+.search-button:hover {
+	opacity:1.0;
+	cursor:pointer;
+}
+.serach-hints {
+	width:99%;
+	height:75px;
+	float:left;
+}
+.search-hint1 {
+	font-family: Calibri;
+font-weight: 100;
+color: #f00;
+font-size: 16px;
+}
+.search-hint2 {
+	font-family: Arial;
+
+color: #666;
+font-size: 13px;
+}
+/* Widget's CSS */
+.widget-layout {
+	width:100%;
+	min-height:1050px;
+	height:auto;
+	float:left;
+}
+.widget-layout-sub-1 {
+	width: 55%;
+	height: 900px;
+	float: left;
+}
+.widget-layout-sub-2 {
+	width: 44%;
+	height: 900px;
+	float: right;
+}
+.widget {
+	background-color: #FFFFFF;
+	width:100%;
+	float: none;
+	height: 100% !important;
+	border-radius: 5px;
+	box-shadow: 1px 5px 6px 0px #E2E2E2;
+	border: 1px solid #B8B8B8;
+	overflow: hidden;
+}
+.widget:hover {
+	box-shadow: 1px 5px 6px 0px #999999;
+	border: 1px solid #ff9933;
+}
+.widget img {
+	width:100%;
+	height:100%;
+	padding:4px;
+}
+.widgetTitleBar {
+	width: 100%;
+	height: 30px;
+	float: left;
+	background-color: #FFA402;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-image:linear-gradient(#71BDDA, #419BC7);
+	border-bottom: 1px solid #FFFFFF;
+	box-shadow: 1px 2px 3px #D1D1D1;
+	font-family: Calibri, Arial;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	padding-top:7px;
+}
+.widgetHeading {
+	padding-left:10px;
+}
+.widgetContent {
+	width: 100%;
+	min-height: 120px;
+	height:auto;
+	float: left;
+	padding:5px;
+	font-family: Arial;
+	font-size: 14px;
+
+}
+.widget-layout-sub-1-1 {
+	width: 49%;
+	height: 300px;
+	float: left;
+	margin-left: 5px;
+}
+.widget-layout-sub-1-2 {
+	margin-left: 5px;
+width: 48%;
+height: 300px;
+float: left;
+}
+.widget-layout-sub-2-1 {
+	width: 99%;
+height: 470px;
+float: left;
+margin-left: 0px;
+}
+.widget-layout-sub-1-right img {
+	width:70%;
+	height:73% !important;
+	padding:4px;
+}
+.widget-layout-sub-1-3 {
+	width: 98%;
+min-height: 145px;
+height: auto;
+float: left;
+margin-left: 5px;
+margin-top: 10px;
+}
+.widget-layout-sub-1-4 {
+	width: 98%;
+min-height: 145px;
+height: auto;
+float: left;
+margin-left: 5px;
+margin-top: 10px;
+}
+.widget-layout-sub-2-3 {
+	width: 99%;
+height: 360px;
+float: left;
+margin-top: 10px;
+}
+.widget-layout-sub-2-2 {
+	width: 99%;
+height: 190px;
+float: left;
+margin-top: 10px;
+}
+/*Slider CSS*/
+.slider-iframe {
+	width:975px;
+	height:191px;
+	max-width:100%;
+	overflow:hidden;
+	border:none;
+	padding:0;
+	margin:0 auto;
+	display:block;
+	border-radius: 8px;
+    box-shadow: 1px 2px 3px #333333;
+
+}
+

@@ -1,0 +1,257 @@
+/* CSS Document */
+/* Errors CSS Starts Here */
+
+label.error  {
+background-color: #FFBABA;
+background-image:url(../images/icons/form-error-icon.png);
+background-repeat: no-repeat;
+border: 1px groove #cc0000;
+border-radius: 7px 2px 2px 7px;
+box-shadow: 1px 2px 3px #ff3333;
+color: #990000;
+display: inline-block;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: bold;
+left: 0;
+margin: 0 4px 0 20px;
+max-width: 410px;
+padding: 8px 8px 10px 40px;
+position: relative;
+text-align: left;
+top: -4px;
+background-position-x: 4px;
+background-position-y: 0px;	
+
+}
+label.error:hover {
+box-shadow:2px 3px 4px #cc0000;
+text-shadow:1px 2px 3px #FFBABA;
+}
+label.error:before{
+position: absolute;
+border-width: 10px;
+border-style: solid;
+border-color: transparent #cc0000 transparent transparent;
+left: -23px;
+top: 7px;
+content: "";
+height: 0;
+width: 0;
+}
+
+/* Errors CSS Ends Here */
+
+/* Alerts CSS Starts Here */
+
+label.alert  {
+background-color: #FEEFB3;
+background-image:url(../images/icons/alert-icon.png);
+background-repeat: no-repeat;
+border: 1px solid #ffcc00;
+border-radius: 7px 2px 2px 7px;
+box-shadow: 1px 2px 3px #ffcc00;
+color: #993300;
+display: inline-block;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: bold;
+left: 0;
+margin: 0 4px 0 20px;
+max-width: 410px;
+padding: 10px 10px 10px 40px;
+position: relative;
+text-align: left;
+top: -4px;
+background-position-x: 4px;
+background-position-y: 1px;	
+
+}
+label.alert:hover {
+box-shadow:2px 3px 4px #ff9933;
+text-shadow:1px 2px 3px #FFAC59;
+}
+label.alert:before{
+position: absolute;
+border-width: 10px;
+border-style: solid;
+border-color: transparent #d39a21 transparent transparent;
+left: -23px;
+top: 8px;
+content: "";
+height: 0;
+width: 0;
+}
+
+
+/* Alerts CSS Ends Here */
+
+/* Info CSS Starts Here */
+
+
+label.info  {
+background-color: #D6E2F0;
+background-image: url(../images/icons/info-icon.png);
+background-repeat: no-repeat;
+border: 1px solid #7EA4DB;
+border-radius: 7px 2px 2px 7px;
+box-shadow: 1px 2px 3px #9DC7D5;
+color: #167ECF;
+display: inline-block;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: bold;
+left: 0;
+margin: 0 4px 0 20px;
+max-width: 410px;
+padding: 10px 10px 10px 40px;
+position: relative;
+text-align: left;
+top: -4px;
+background-position-x: 4px;
+background-position-y: 1px;
+
+}
+label.info:hover {
+box-shadow: 2px 3px 4px #95B9DA;
+text-shadow: 1px 2px 3px #AAD9F1;
+}
+label.info:before{
+position: absolute;
+border-width: 10px;
+border-style: solid;
+border-color: transparent #2E9ACC transparent transparent;
+left: -23px;
+top: 8px;
+content: "";
+height: 0;
+width: 0;
+}
+
+/* Info CSS Ends Here */
+
+/* Success Message Window Starts Here  */
+#successMessage {
+width:50%;
+min-height:200px;
+float:none;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+border-radius:5px;
+box-shadow: 0px 1px 15px 0px #999999;
+border:1px solid #e7e7e7;	
+}
+#messageHeader {
+width: 100%;
+height: 30px;
+float: left;
+background-color: #FFA402;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-image: linear-gradient(#FAEC83, #FAB44A);
+border-bottom: 1px solid #FFFFFF;
+box-shadow: 1px 2px 3px #D1D1D1;
+font-family: Calibri, Arial;
+}
+#messageContent {
+width: 100%;
+min-height: 120px;
+height:auto;
+float: left;
+text-align: center;
+font-family: Calibri, Arial;
+font-weight: bold;
+font-size: 20px;
+color: #090;
+}
+  
+
+
+#messageFooter {
+width:100%;
+height:50px;
+float:left;
+
+}
+#messageImage {
+float: left;
+width: 30%;
+height: auto;
+padding-top: 6px;
+text-align: right;
+margin-right: 11px;
+margin-top: 7px;
+}
+
+#messageText {
+float: left;
+width: 60%;
+height: auto;
+margin-top: 20px;
+text-align: left;
+line-height: 20px;
+}
+.message {
+font-family: Calibri, Arial;
+color: #333333;
+font-size: 14px;
+text-shadow: 1px 1px 1px #e7e7e7;
+}
+
+#messageFooter button {
+width: 90px;
+height: 30px;
+float: left;
+margin-left: 161PX;
+margin-top: 3PX;
+background-color: #636363;
+background-image: linear-gradient(#D8D8D8, #757575);
+border-radius: 6px;
+border: 1px solid #FFFFFF;
+font-family: Arial;
+color: #ffffff;
+font-weight: bold;
+font-size: 14px;
+cursor: default;
+box-shadow: 1px 2px 3px #A7A7A7;
+}
+#messageFooter button:hover {
+box-shadow: 1px 2px 3px #999999;
+background-color: #009900;
+background-image: linear-gradient(#86EE6C, #1C8131);
+}
+
+/* No Pointer Error Message */
+label.error2  {
+background-color: #FFBABA;
+background-image:url(../images/icons/form-error-icon.png);
+background-repeat: no-repeat;
+border: 1px groove #cc0000;
+border-radius: 7px 2px 2px 7px;
+box-shadow: 1px 2px 3px #ff3333;
+color: #990000;
+display: inline-block;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: bold;
+left: 0;
+margin: 0 4px 0 20px;
+max-width: 410px;
+padding: 8px 8px 10px 40px;
+position: relative;
+text-align: left;
+top: -4px;
+background-position-x: 4px;
+background-position-y: 0px;	
+
+}
+label.error2:hover {
+box-shadow:2px 3px 4px #cc0000;
+text-shadow:1px 2px 3px #FFBABA;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+{
+					title: 'KRSTE',
+					start: new Date(y, m, 1),
+					url: 'https://krste.my/#'
+				},
+				{
+					title: 'Deployment',
+					start: new Date(y, m, d-5),
+					end: new Date(y, m, d-2),
+					url: 'https://krste.my/#'
+				},
+				{
+					id: 999,
+					title: 'Mosti Meeting',
+					start: new Date(y, m, d-3, 16, 0),
+					allDay: false,
+					url: 'https://krste.my/#',
+					target:'_blank'
+
+					
+				},
+				{
+					id: 999,
+					title: 'Mimos Krste Review',
+					start: new Date(y, m, d+4, 16, 0),
+					allDay: false,
+					url: 'https://krste.my/#'
+				},
+				{
+					title: 'Testing',
+					start: new Date(y, m, d, 10, 30),
+					allDay: false,
+					url: 'https://krste.my/#'
+				},
+				{
+					title: 'Database Scehema',
+					start: new Date(y, m, d, 12, 0),
+					end: new Date(y, m, d, 14, 0),
+					allDay: false,
+					url: 'https://krste.my/#'
+				}

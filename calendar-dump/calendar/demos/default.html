@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='../fullcalendar/fullcalendar.css' rel='stylesheet' />
+<link href='../fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='../lib/jquery.min.js'></script>
+<script src='../lib/jquery-ui.custom.min.js'></script>
+<script src='../fullcalendar/fullcalendar.min.js'></script>
+<script>
+
+
+	$(document).ready(function() {
+	
+		var date = new Date();
+		var d = date.getDate();
+		var m = date.getMonth();
+		var y = date.getFullYear();
+		
+		var target_url="events.json";
+		 $.getJSON(target_url, function (json_data) {
+                $.each(json_data, function (k, v) {
+					alert(k);
+				});
+		 });
+		
+		$('#calendar').fullCalendar({
+			editable: true,
+			events: [
+				{
+					title: 'KRSTE',
+					start: new Date(y, m, 1),
+					url: 'https://krste.my/#'
+				},
+				{
+					title: 'Deployment',
+					start: new Date(y, m, d-5),
+					end: new Date(y, m, d-2),
+					url: 'https://krste.my/#'
+				},
+				{
+					id: 999,
+					title: 'Mosti Meeting',
+					start: new Date(y, m, d-3, 16, 0),
+					allDay: false,
+					url: 'https://krste.my/#',
+					target:'_blank'
+
+					
+				},
+				{
+					id: 999,
+					title: 'Mimos Krste Review',
+					start: new Date(y, m, d+4, 16, 0),
+					allDay: false,
+					url: 'https://krste.my/#'
+				},
+				{
+					title: 'Testing',
+					start: new Date(y, m, d, 10, 30),
+					allDay: false,
+					url: 'https://krste.my/#'
+				},
+				{
+					title: 'Database Scehema',
+					start: new Date(y, m, d, 12, 0),
+					end: new Date(y, m, d, 14, 0),
+					allDay: false,
+					url: 'https://krste.my/#'
+				},
+				
+			],
+			 eventClick: function(event) {
+        if (event.url) {
+            window.open(event.url);
+            return false;
+        }
+    },
+	
+		});
+		
+	});
+
+</script>
+<style>
+body {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Tahoma", Helvetica, Arial, Verdana, sans-serif;
+}
+#calendar {
+	width: 400px;
+	height:400px;/*		margin: 0 auto;*/
+		}
+</style>
+</head>
+<body>
+<div id='calendar'></div>
+</body>
+</html>
